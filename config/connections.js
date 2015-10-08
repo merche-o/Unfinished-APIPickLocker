@@ -17,10 +17,10 @@ module.exports.connections = {
    */
   postgresql: {
     adapter: 'sails-postgresql',
-    database: "PickLocker",
-    host: "localhost",
-    user: "dev",
-    password: "dev",
+    database: "dm6dfh3k1i39p",
+    host: "ec2-54-197-241-239.compute-1.amazonaws.com",
+    user: "fhwdaqjpfygmna",
+    password: "XifQQk2M0X7B39kT_EFVNUjPm8",
     port: 5432,
     pool: false,
     ssl: false

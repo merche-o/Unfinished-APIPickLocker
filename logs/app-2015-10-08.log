@@ -244,3 +244,266 @@
 2015-10-08T12:17:50.650Z - verbose: [36mverbose: [39mShutting down socket server...
 2015-10-08T12:17:50.657Z - verbose: [36mverbose: [39mShutting down HTTP server...
 2015-10-08T12:17:50.757Z - verbose: [36mverbose: [39mHTTP server shut down successfully.
+2015-10-08T13:57:50.899Z - verbose: [36mverbose: [39mlogger hook loaded successfully.
+2015-10-08T13:57:50.900Z - verbose: [36mverbose: [39mrequest hook loaded successfully.
+2015-10-08T13:57:50.901Z - verbose: [36mverbose: [39mLoading the app's models and adapters...
+2015-10-08T13:57:50.901Z - verbose: [36mverbose: [39mLoading app models...
+2015-10-08T13:57:50.908Z - verbose: [36mverbose: [39mLoading app adapters...
+2015-10-08T13:57:50.916Z - verbose: [36mverbose: [39mLoading blueprint middleware...
+2015-10-08T13:57:50.985Z - verbose: [36mverbose: [39mblueprints hook loaded successfully.
+2015-10-08T13:57:50.986Z - verbose: [36mverbose: [39mresponses hook loaded successfully.
+2015-10-08T13:57:50.993Z - verbose: [36mverbose: [39mcontrollers hook loaded successfully.
+2015-10-08T13:57:50.995Z - verbose: [36mverbose: [39mLoading policy modules from app...
+2015-10-08T13:57:50.997Z - verbose: [36mverbose: [39mFinished loading policy middleware logic.
+2015-10-08T13:57:50.998Z - verbose: [36mverbose: [39mpolicies hook loaded successfully.
+2015-10-08T13:57:50.998Z - verbose: [36mverbose: [39mservices hook loaded successfully.
+2015-10-08T13:57:50.998Z - verbose: [36mverbose: [39mcsrf hook loaded successfully.
+2015-10-08T13:57:50.999Z - verbose: [36mverbose: [39mcors hook loaded successfully.
+2015-10-08T13:57:51.009Z - verbose: [36mverbose: [39mi18n hook loaded successfully.
+2015-10-08T13:57:51.010Z - verbose: [36mverbose: [39msession hook loaded successfully.
+2015-10-08T13:57:51.010Z - verbose: [36mverbose: [39mLoading app Gruntfile...
+2015-10-08T13:57:51.020Z - verbose: [36mverbose: [39mTracking new grunt child process...
+2015-10-08T13:57:51.020Z - verbose: [36mverbose: [39mgrunt hook loaded successfully.
+2015-10-08T13:57:51.188Z - verbose: [36mverbose: [39mhttp hook loaded successfully.
+2015-10-08T13:57:51.189Z - verbose: [36mverbose: [39mOverriding ejs engine config with ejslocals to implement layout support...
+2015-10-08T13:57:51.189Z - verbose: [36mverbose: [39mPreparing socket.io...
+2015-10-08T13:57:51.225Z - verbose: [36mverbose: [39msockets hook loaded successfully.
+2015-10-08T13:57:51.226Z - verbose: [36mverbose: [39mpluralize-only-rest-models hook loaded successfully.
+2015-10-08T13:57:51.226Z - verbose: [36mverbose: [39mcron hook loaded successfully.
+2015-10-08T13:57:51.516Z - verbose: [36mverbose: [39mGrunt :: A valid Gruntfile could not be found. Please see the getting started guide for
+more information on how to configure grunt: http://gruntjs.com/getting-started
+2015-10-08T13:57:51.525Z - info: [32minfo: [39mGruntfile could not be found.
+2015-10-08T13:57:51.526Z - info: [32minfo: [39m(no grunt tasks will be run.)
+2015-10-08T13:57:51.530Z - verbose: [36mverbose: [39morm hook loaded successfully.
+2015-10-08T13:57:51.532Z - verbose: [36mverbose: [39mpubsub hook loaded successfully.
+2015-10-08T13:57:51.533Z - verbose: [36mverbose: [39mBuilt-in hooks are ready.
+2015-10-08T13:57:51.534Z - verbose: [36mverbose: [39mInstantiating registry...
+2015-10-08T13:57:51.535Z - verbose: [36mverbose: [39mLoading router...
+2015-10-08T13:57:51.536Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  all /* (REQUEST HOOK: addMixins)
+2015-10-08T13:57:51.540Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  all /* (RESPONSES HOOK: addResponseMethods)
+2015-10-08T13:57:51.542Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  all /* (I18N HOOK: addLocalizationMethod)
+2015-10-08T13:57:51.544Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  all /* (VIEWS HOOK: addResViewMethod)
+2015-10-08T13:57:51.547Z - verbose: [36mverbose: [39mPolicy-controller bindings complete!
+2015-10-08T13:57:51.547Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /* (CSRF HOOK: CSRF)
+2015-10-08T13:57:51.548Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  all /* (CORS HOOK: clearHeaders)
+2015-10-08T13:57:51.550Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /csrfToken (CORS HOOK: sendHeaders)
+2015-10-08T13:57:51.551Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  options /csrftoken (CORS HOOK: preflight)
+2015-10-08T13:57:51.553Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /csrfToken (FUNCTION: csrfToken)
+2015-10-08T13:57:51.555Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /__getcookie (SOCKETS HOOK)
+2015-10-08T13:57:51.559Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (identity) blueprint/shadow route for controller: account
+2015-10-08T13:57:51.561Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (globalid) blueprint/shadow route for controller: account
+2015-10-08T13:57:51.561Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (sails) blueprint/shadow route for controller: account
+2015-10-08T13:57:51.574Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful blueprint/shadow routes for model+controller: account
+2015-10-08T13:57:51.575Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/accounts (POLICY: isAuthenticated)
+2015-10-08T13:57:51.575Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/accounts (BLUEPRINT: )
+2015-10-08T13:57:51.576Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/accounts/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.577Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/accounts/:id (BLUEPRINT: )
+2015-10-08T13:57:51.577Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/accounts (POLICY: isAuthenticated)
+2015-10-08T13:57:51.578Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/accounts (BLUEPRINT: )
+2015-10-08T13:57:51.579Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  put /v1/accounts/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.579Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  put /v1/accounts/:id (BLUEPRINT: )
+2015-10-08T13:57:51.580Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/accounts/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.580Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/accounts/:id (BLUEPRINT: )
+2015-10-08T13:57:51.581Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/accounts/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.582Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/accounts/:id? (BLUEPRINT: )
+2015-10-08T13:57:51.583Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (signin) blueprint/shadow route for controller: auth
+2015-10-08T13:57:51.583Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/auth/signin/:id? (POLICY: alwaysAllow)
+2015-10-08T13:57:51.585Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/auth/signin/:id? (ACTION: auth/signin)
+2015-10-08T13:57:51.585Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (signup) blueprint/shadow route for controller: auth
+2015-10-08T13:57:51.586Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/auth/signup/:id? (POLICY: alwaysAllow)
+2015-10-08T13:57:51.587Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/auth/signup/:id? (ACTION: auth/signup)
+2015-10-08T13:57:51.588Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (social) blueprint/shadow route for controller: auth
+2015-10-08T13:57:51.588Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/auth/social/:id? (POLICY: alwaysAllow)
+2015-10-08T13:57:51.589Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/auth/social/:id? (ACTION: auth/social)
+2015-10-08T13:57:51.589Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (refresh_token) blueprint/shadow route for controller: auth
+2015-10-08T13:57:51.590Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/auth/refresh_token/:id? (POLICY: alwaysAllow)
+2015-10-08T13:57:51.591Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/auth/refresh_token/:id? (ACTION: auth/refresh_token)
+2015-10-08T13:57:51.592Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (identity) blueprint/shadow route for controller: auth
+2015-10-08T13:57:51.592Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (globalid) blueprint/shadow route for controller: auth
+2015-10-08T13:57:51.592Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (sails) blueprint/shadow route for controller: auth
+2015-10-08T13:57:51.599Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (identity) blueprint/shadow route for controller: bonus
+2015-10-08T13:57:51.599Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (globalid) blueprint/shadow route for controller: bonus
+2015-10-08T13:57:51.599Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (sails) blueprint/shadow route for controller: bonus
+2015-10-08T13:57:51.604Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful blueprint/shadow routes for model+controller: bonus
+2015-10-08T13:57:51.605Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/bonuses (POLICY: isAuthenticated)
+2015-10-08T13:57:51.605Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/bonuses (BLUEPRINT: )
+2015-10-08T13:57:51.606Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/bonuses/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.606Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/bonuses/:id (BLUEPRINT: )
+2015-10-08T13:57:51.607Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/bonuses (POLICY: isAuthenticated)
+2015-10-08T13:57:51.607Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/bonuses (BLUEPRINT: )
+2015-10-08T13:57:51.608Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  put /v1/bonuses/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.609Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  put /v1/bonuses/:id (BLUEPRINT: )
+2015-10-08T13:57:51.609Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/bonuses/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.610Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/bonuses/:id (BLUEPRINT: )
+2015-10-08T13:57:51.610Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/bonuses/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.611Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/bonuses/:id? (BLUEPRINT: )
+2015-10-08T13:57:51.611Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful association blueprint `owner` for bonus
+2015-10-08T13:57:51.612Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/bonuses/:parentid/owner/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.612Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/bonuses/:parentid/owner/:id? (BLUEPRINT: expand)
+2015-10-08T13:57:51.613Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (identity) blueprint/shadow route for controller: code
+2015-10-08T13:57:51.613Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (globalid) blueprint/shadow route for controller: code
+2015-10-08T13:57:51.613Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (sails) blueprint/shadow route for controller: code
+2015-10-08T13:57:51.618Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful blueprint/shadow routes for model+controller: code
+2015-10-08T13:57:51.619Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/codes (POLICY: isAuthenticated)
+2015-10-08T13:57:51.619Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/codes (BLUEPRINT: )
+2015-10-08T13:57:51.620Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/codes/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.620Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/codes/:id (BLUEPRINT: )
+2015-10-08T13:57:51.621Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/codes (POLICY: isAuthenticated)
+2015-10-08T13:57:51.621Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/codes (BLUEPRINT: )
+2015-10-08T13:57:51.622Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  put /v1/codes/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.623Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  put /v1/codes/:id (BLUEPRINT: )
+2015-10-08T13:57:51.623Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/codes/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.624Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/codes/:id (BLUEPRINT: )
+2015-10-08T13:57:51.625Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/codes/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.625Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/codes/:id? (BLUEPRINT: )
+2015-10-08T13:57:51.626Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (identity) blueprint/shadow route for controller: game
+2015-10-08T13:57:51.627Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (globalid) blueprint/shadow route for controller: game
+2015-10-08T13:57:51.628Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (sails) blueprint/shadow route for controller: game
+2015-10-08T13:57:51.633Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful blueprint/shadow routes for model+controller: game
+2015-10-08T13:57:51.634Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/games (POLICY: isAuthenticated)
+2015-10-08T13:57:51.635Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/games (BLUEPRINT: )
+2015-10-08T13:57:51.636Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/games/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.637Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/games/:id (BLUEPRINT: )
+2015-10-08T13:57:51.637Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/games (POLICY: isAuthenticated)
+2015-10-08T13:57:51.639Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/games (BLUEPRINT: )
+2015-10-08T13:57:51.640Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  put /v1/games/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.641Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  put /v1/games/:id (BLUEPRINT: )
+2015-10-08T13:57:51.641Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/games/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.642Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/games/:id (BLUEPRINT: )
+2015-10-08T13:57:51.643Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/games/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.643Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/games/:id? (BLUEPRINT: )
+2015-10-08T13:57:51.644Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful association blueprint `_player1` for game
+2015-10-08T13:57:51.644Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/games/:parentid/_player1/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.645Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/games/:parentid/_player1/:id? (BLUEPRINT: expand)
+2015-10-08T13:57:51.645Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful association blueprint `_player2` for game
+2015-10-08T13:57:51.646Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/games/:parentid/_player2/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.647Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/games/:parentid/_player2/:id? (BLUEPRINT: expand)
+2015-10-08T13:57:51.647Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (identity) blueprint/shadow route for controller: history
+2015-10-08T13:57:51.648Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (globalid) blueprint/shadow route for controller: history
+2015-10-08T13:57:51.648Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (sails) blueprint/shadow route for controller: history
+2015-10-08T13:57:51.653Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful blueprint/shadow routes for model+controller: history
+2015-10-08T13:57:51.653Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/histories (POLICY: isAuthenticated)
+2015-10-08T13:57:51.654Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/histories (BLUEPRINT: )
+2015-10-08T13:57:51.654Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/histories/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.655Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/histories/:id (BLUEPRINT: )
+2015-10-08T13:57:51.656Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/histories (POLICY: isAuthenticated)
+2015-10-08T13:57:51.656Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/histories (BLUEPRINT: )
+2015-10-08T13:57:51.658Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  put /v1/histories/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.658Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  put /v1/histories/:id (BLUEPRINT: )
+2015-10-08T13:57:51.659Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/histories/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.659Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/histories/:id (BLUEPRINT: )
+2015-10-08T13:57:51.660Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/histories/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.660Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/histories/:id? (BLUEPRINT: )
+2015-10-08T13:57:51.661Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful association blueprint `codes` for history
+2015-10-08T13:57:51.662Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/histories/:parentid/codes/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.662Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/histories/:parentid/codes/:id? (BLUEPRINT: addToCollection)
+2015-10-08T13:57:51.663Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/histories/:parentid/codes/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.663Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/histories/:parentid/codes/:id? (BLUEPRINT: remove)
+2015-10-08T13:57:51.664Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful association blueprint `list_bonus` for history
+2015-10-08T13:57:51.664Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/histories/:parentid/list_bonus/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.665Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/histories/:parentid/list_bonus/:id? (BLUEPRINT: addToCollection)
+2015-10-08T13:57:51.666Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/histories/:parentid/list_bonus/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.667Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/histories/:parentid/list_bonus/:id? (BLUEPRINT: remove)
+2015-10-08T13:57:51.668Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful association blueprint `codes` for history
+2015-10-08T13:57:51.668Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/histories/:parentid/codes/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.669Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/histories/:parentid/codes/:id? (BLUEPRINT: expand)
+2015-10-08T13:57:51.669Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful association blueprint `list_bonus` for history
+2015-10-08T13:57:51.670Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/histories/:parentid/list_bonus/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.670Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/histories/:parentid/list_bonus/:id? (BLUEPRINT: expand)
+2015-10-08T13:57:51.671Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (index) blueprint/shadow route for controller: ping
+2015-10-08T13:57:51.671Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/ping/index/:id? (POLICY: alwaysAllow)
+2015-10-08T13:57:51.672Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/ping/index/:id? (ACTION: ping/index)
+2015-10-08T13:57:51.672Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding index blueprint/shadow route for controller: ping
+2015-10-08T13:57:51.673Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/ping (POLICY: alwaysAllow)
+2015-10-08T13:57:51.673Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/ping (ACTION: ping/index)
+2015-10-08T13:57:51.674Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (identity) blueprint/shadow route for controller: ping
+2015-10-08T13:57:51.674Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (globalid) blueprint/shadow route for controller: ping
+2015-10-08T13:57:51.674Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (sails) blueprint/shadow route for controller: ping
+2015-10-08T13:57:51.680Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (identity) blueprint/shadow route for controller: player
+2015-10-08T13:57:51.680Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (globalid) blueprint/shadow route for controller: player
+2015-10-08T13:57:51.680Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (sails) blueprint/shadow route for controller: player
+2015-10-08T13:57:51.689Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful blueprint/shadow routes for model+controller: player
+2015-10-08T13:57:51.690Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/players (POLICY: isAuthenticated)
+2015-10-08T13:57:51.691Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/players (BLUEPRINT: )
+2015-10-08T13:57:51.691Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/players/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.692Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/players/:id (BLUEPRINT: )
+2015-10-08T13:57:51.692Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/players (POLICY: isAuthenticated)
+2015-10-08T13:57:51.693Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/players (BLUEPRINT: )
+2015-10-08T13:57:51.693Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  put /v1/players/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.694Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  put /v1/players/:id (BLUEPRINT: )
+2015-10-08T13:57:51.694Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/players/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.695Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/players/:id (BLUEPRINT: )
+2015-10-08T13:57:51.695Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/players/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.696Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/players/:id? (BLUEPRINT: )
+2015-10-08T13:57:51.696Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (index) blueprint/shadow route for controller: search
+2015-10-08T13:57:51.698Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/search/index/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.698Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/search/index/:id? (ACTION: search/index)
+2015-10-08T13:57:51.699Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding index blueprint/shadow route for controller: search
+2015-10-08T13:57:51.700Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/search (POLICY: isAuthenticated)
+2015-10-08T13:57:51.700Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::   /v1/search (ACTION: search/index)
+2015-10-08T13:57:51.701Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (identity) blueprint/shadow route for controller: search
+2015-10-08T13:57:51.701Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (globalid) blueprint/shadow route for controller: search
+2015-10-08T13:57:51.701Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (sails) blueprint/shadow route for controller: search
+2015-10-08T13:57:51.706Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (identity) blueprint/shadow route for controller: user
+2015-10-08T13:57:51.706Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (globalid) blueprint/shadow route for controller: user
+2015-10-08T13:57:51.706Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding action (sails) blueprint/shadow route for controller: user
+2015-10-08T13:57:51.718Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful blueprint/shadow routes for model+controller: user
+2015-10-08T13:57:51.718Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/users (POLICY: isAuthenticated)
+2015-10-08T13:57:51.719Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/users (BLUEPRINT: )
+2015-10-08T13:57:51.719Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/users/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.720Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/users/:id (BLUEPRINT: )
+2015-10-08T13:57:51.720Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/users (POLICY: isAuthenticated)
+2015-10-08T13:57:51.721Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/users (BLUEPRINT: )
+2015-10-08T13:57:51.722Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  put /v1/users/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.722Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  put /v1/users/:id (BLUEPRINT: )
+2015-10-08T13:57:51.723Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/users/:id (POLICY: isAuthenticated)
+2015-10-08T13:57:51.723Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/users/:id (BLUEPRINT: )
+2015-10-08T13:57:51.724Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/users/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.725Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/users/:id? (BLUEPRINT: )
+2015-10-08T13:57:51.725Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful association blueprint `list_bonus` for user
+2015-10-08T13:57:51.726Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/users/:parentid/list_bonus/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.726Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  post /v1/users/:parentid/list_bonus/:id? (BLUEPRINT: addToCollection)
+2015-10-08T13:57:51.727Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/users/:parentid/list_bonus/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.727Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  delete /v1/users/:parentid/list_bonus/:id? (BLUEPRINT: remove)
+2015-10-08T13:57:51.727Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful association blueprint `list_bonus` for user
+2015-10-08T13:57:51.728Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/users/:parentid/list_bonus/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.728Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/users/:parentid/list_bonus/:id? (BLUEPRINT: expand)
+2015-10-08T13:57:51.729Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding RESTful association blueprint `code` for user
+2015-10-08T13:57:51.730Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/users/:parentid/code/:id? (POLICY: isAuthenticated)
+2015-10-08T13:57:51.730Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /v1/users/:parentid/code/:id? (BLUEPRINT: expand)
+2015-10-08T13:57:51.731Z - silly: [31ms[39m[33mi[39m[32ml[39m[34ml[39m[35my[39m[31m:[39m Binding route ::  get /csrfToken (FUNCTION: csrfToken)
+2015-10-08T13:57:51.732Z - verbose: [36mverbose: [39mAll hooks were loaded successfully.
+2015-10-08T13:57:51.733Z - verbose: [36mverbose: [39mStarting app at /Users/Ainur/gitRepo/APIPickLocker...
+2015-10-08T13:57:51.733Z - verbose: [36mverbose: [39mRunning the setup logic in `sails.config.bootstrap(cb)`...
+2015-10-08T13:57:51.737Z - info: [32minfo: [39m
+2015-10-08T13:57:51.737Z - info: [32minfo: [39m               .-..-.
+2015-10-08T13:57:51.738Z - info: [32minfo: [39m
+2015-10-08T13:57:51.738Z - info: [32minfo: [39m   Sails              <|    .-..-.
+2015-10-08T13:57:51.738Z - info: [32minfo: [39m   v0.11.2             |\
+2015-10-08T13:57:51.738Z - info: [32minfo: [39m                      /|.\
+2015-10-08T13:57:51.738Z - info: [32minfo: [39m                     / || \
+2015-10-08T13:57:51.738Z - info: [32minfo: [39m                   ,'  |'  \
+2015-10-08T13:57:51.738Z - info: [32minfo: [39m                .-'.-==|/_--'
+2015-10-08T13:57:51.739Z - info: [32minfo: [39m                `--'-------' 
+2015-10-08T13:57:51.739Z - info: [32minfo: [39m   __---___--___---___--___---___--___
+2015-10-08T13:57:51.739Z - info: [32minfo: [39m ____---___--___---___--___---___--___-__
+2015-10-08T13:57:51.739Z - info: [32minfo: [39m
+2015-10-08T13:57:51.739Z - info: [32minfo: [39mServer lifted in `/Users/Ainur/gitRepo/APIPickLocker`
+2015-10-08T13:57:51.740Z - info: [32minfo: [39mTo see your app, visit [4mhttp://localhost:3000[24m
+2015-10-08T13:57:51.740Z - info: [32minfo: [39mTo shut down Sails, press <CTRL> + C at any time.
+2015-10-08T13:57:51.740Z - debug: [34mdebug: [39m[90m--------------------------------------------------------[39m
+2015-10-08T13:57:51.741Z - debug: [34mdebug: [39m[90m:: Thu Oct 08 2015 15:57:51 GMT+0200 (CEST)[39m
+2015-10-08T13:57:51.741Z - debug: [34mdebug: [39mEnvironment : development
+2015-10-08T13:57:51.741Z - debug: [34mdebug: [39mPort        : 3000
+2015-10-08T13:57:51.741Z - debug: [34mdebug: [39m[90m--------------------------------------------------------[39m
+2015-10-08T13:57:52.288Z - verbose: [36mverbose: [39mCould not fetch session, since connecting socket has no cookie (is this a cross-origin socket?)
+Generated a one-time-use cookie:sails.sid=s%3Act-H2VBp6ykbv2JJYE0JJj29CQvZt6is.vAY%2BIYjK86ZXCi7sSeBfsy0JqwOP%2FKi9GiKh2ak%2Bx8wand saved it on the socket handshake.
+This will start this socket off with an empty session, i.e. (req.session === {})
+That "anonymous" section will only last until the socket is disconnected unless you persist the session id in your database,
+or by setting the set-cookie response header for an HTTP request that you *know* came from the same user (etc)
+Alternatively, just make sure the socket sends a `cookie` header or query param when it initially connects.
+2015-10-08T13:57:54.334Z - verbose: [36mverbose: [39mLowering sails...
+2015-10-08T13:57:54.335Z - verbose: [36mverbose: [39mSent kill signal to child process (51107)...
+2015-10-08T13:57:54.341Z - verbose: [36mverbose: [39mShutting down socket server...
+2015-10-08T13:57:54.342Z - verbose: [36mverbose: [39mShutting down HTTP server...
+2015-10-08T13:57:54.351Z - verbose: [36mverbose: [39mHTTP server shut down successfully.
