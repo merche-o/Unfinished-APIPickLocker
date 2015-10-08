@@ -1,0 +1,338 @@
+{
+  "data": {
+    "account": [],
+    "bonus": [],
+    "code": [],
+    "game": [],
+    "history": [],
+    "player": [],
+    "user": [
+      {
+        "username": "teZ",
+        "password": "$2a$10$gLHa2aGmqRbdW9x1FyhdVemQGmb8oqR/baIQskqzvkFnxSZHDFB7K",
+        "email": "o.dEAEza@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "life": 3,
+        "try": 0,
+        "photo": "",
+        "socialProfiles": {},
+        "createdAt": "2015-10-08T15:59:37.900Z",
+        "updatedAt": "2015-10-08T15:59:37.997Z",
+        "id": 1
+      },
+      {
+        "username": "test",
+        "password": "$2a$10$hUt.Q336bBmluMxtHd4mnO8xcRHdkSwtBDR34GEIvzsqZeJX.71Eu",
+        "email": "o.2dza@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "life": 3,
+        "try": 0,
+        "photo": "",
+        "socialProfiles": {},
+        "createdAt": "2015-10-08T15:59:57.227Z",
+        "updatedAt": "2015-10-08T15:59:57.314Z",
+        "id": 2
+      },
+      {
+        "username": "test2",
+        "password": "$2a$10$l9tAZVrjqOQoPkAdMUHzMOy7V4yDoOTyTvfRDj.CDdTGLA.ufc972",
+        "email": "o.mercher24@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "life": 3,
+        "try": 0,
+        "photo": "",
+        "socialProfiles": {},
+        "createdAt": "2015-10-08T16:00:58.363Z",
+        "updatedAt": "2015-10-08T16:00:58.452Z",
+        "id": 3
+      },
+      {
+        "username": "test6",
+        "password": "$2a$10$jeEUlC.rLNawGMEjBJHlKOPaRSeFaRsFdjC0uwysEzbH9BzlwRrge",
+        "email": "o.dza@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "life": 3,
+        "try": 0,
+        "photo": "",
+        "socialProfiles": {},
+        "createdAt": "2015-10-08T16:02:35.793Z",
+        "updatedAt": "2015-10-08T16:02:35.881Z",
+        "id": 4
+      },
+      {
+        "username": "test5",
+        "password": "$2a$10$dW7.BO.4Er0giFlB6PwQ1O7OUeB34mYuhKQsHGgjAF9beKUgOa81e",
+        "email": "azer@gg.com",
+        "firstName": "",
+        "lastName": "",
+        "life": 3,
+        "try": 0,
+        "photo": "",
+        "socialProfiles": {},
+        "createdAt": "2015-10-08T16:04:45.928Z",
+        "updatedAt": "2015-10-08T16:04:46.020Z",
+        "id": 5
+      }
+    ],
+    "code_codes_code__history_codes": [],
+    "bonus_list_bonus_bonus__history_list_bonus": []
+  },
+  "schema": {
+    "account": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "bonus": {
+      "owner": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "owner"
+      },
+      "name": {
+        "type": "string",
+        "unique": true
+      },
+      "type": {
+        "type": "string",
+        "enum": [
+          "bonus1",
+          "bonus2"
+        ]
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "code": {
+      "code": {
+        "type": "string"
+      },
+      "turn": {
+        "type": "integer"
+      },
+      "id_player": {
+        "type": "string"
+      },
+      "id_game": {
+        "type": "integer"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "game": {
+      "status_room": {
+        "type": "string"
+      },
+      "status_game": {
+        "type": "string"
+      },
+      "nb_turn": {
+        "type": "integer",
+        "defaultsTo": 0
+      },
+      "_player1": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "_player1"
+      },
+      "_player2": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "_player2"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "history": {
+      "id_game": {
+        "type": "integer",
+        "unique": true
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "player": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "username": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string",
+        "unique": true
+      },
+      "firstName": {
+        "type": "string",
+        "defaultsTo": ""
+      },
+      "lastName": {
+        "type": "string",
+        "defaultsTo": ""
+      },
+      "life": {
+        "type": "integer",
+        "defaultsTo": 3
+      },
+      "code": {
+        "type": "integer",
+        "model": "code",
+        "foreignKey": true,
+        "alias": "code",
+        "via": "id_player"
+      },
+      "try": {
+        "type": "integer",
+        "defaultsTo": 0
+      },
+      "photo": {
+        "type": "string",
+        "defaultsTo": ""
+      },
+      "socialProfiles": {
+        "type": "string",
+        "defaultsTo": {}
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "code_codes_code__history_codes": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "history_codes": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "history",
+        "on": "id",
+        "via": "code_codes_code"
+      },
+      "code_codes_code": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "code",
+        "on": "id",
+        "via": "history_codes"
+      }
+    },
+    "bonus_list_bonus_bonus__history_list_bonus": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "history_list_bonus": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "history",
+        "on": "id",
+        "via": "bonus_list_bonus_bonus"
+      },
+      "bonus_list_bonus_bonus": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "bonus",
+        "on": "id",
+        "via": "history_list_bonus"
+      }
+    }
+  },
+  "counters": {
+    "account": {},
+    "bonus": {},
+    "code": {},
+    "game": {},
+    "history": {},
+    "player": {},
+    "user": {
+      "id": 5
+    },
+    "code_codes_code__history_codes": {},
+    "bonus_list_bonus_bonus__history_list_bonus": {}
+  }
+}
