@@ -9,7 +9,7 @@ module.exports = {
    * Port where to run this app
    * @type {Number}
    */
-  port: process.env.PORT || 3000,
+  port: 3000,
 
   /**
    * Your SSL certificates
