@@ -7,7 +7,7 @@ module.exports = {
   port: process.env.PORT || 80,
   log: {
     level: 'info'
-  }
+    },
   models: {
     connection: 'postgresql'
   }
