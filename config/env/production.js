@@ -8,4 +8,7 @@ module.exports = {
   log: {
     level: 'info'
   }
+  models: {
+    connection: 'postgresql'
+  }
 };
