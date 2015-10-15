@@ -4,7 +4,7 @@
  */
 
 module.exports = {
-  port: 80,
+  port: process.env.PORT || 80,
   log: {
     level: 'info'
   }
