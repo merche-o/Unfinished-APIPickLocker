@@ -9,6 +9,6 @@ module.exports = {
     level: 'info'
     },
   models: {
-    connection: 'postgresql'
+   connection: 'postgresql'
   }
 };

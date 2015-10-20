@@ -1,5 +1,5 @@
 {
-  "name": "PickLocker_API",
+  "name": "PickLocker",
   "version": "0.1.0",
   "main": "app.js",
   "dependencies": {
@@ -37,7 +37,6 @@
   },
   "devDependencies": {
     "chai": "^3.2.0",
-    "grunt": "^0.4.5",
     "istanbul": "^0.3.17",
     "mocha": "^2.2.5",
     "sails-memory": "^0.10.5",
