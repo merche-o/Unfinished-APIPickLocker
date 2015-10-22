@@ -10,9 +10,7 @@
 module.exports = function (data, code, message, root) {
   // TODO: make transform camelCase to snake_case
   var response = _.assign({
-    code: code || 'OK',
-    message: message || 'Operation is successfully executed',
-    data: data || {}
+       data: data
   }, root);
 
   this.res.status(200);
