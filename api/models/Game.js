@@ -19,7 +19,7 @@ module.exports = {
 	      model:'Player',
 	  },
 	history : {
-	    model:History
+	    model:'History'
 	}
   }
 };
