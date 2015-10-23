@@ -99,6 +99,7 @@ function _onLocalStrategyAuth(req, email, password, next) {
 function _onJwtStrategyAuth(req, payload, next) {
   User
     .findOne({id: payload.id})
+      .populate('list_bonus')
     .then(function (user) {
       if (!user) return next(null, null, {
         code: 'E_USER_NOT_FOUND',

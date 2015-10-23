@@ -42,7 +42,6 @@ module.exports = {
 
       return model
         .find(where)
-      .populate('list_bonus')
         .then(function (queryRes) {
           var resObj = {};
           resObj[modelStr] = queryRes;
