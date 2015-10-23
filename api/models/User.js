@@ -5,7 +5,7 @@
 
 module.exports = {
   schema: true,
-
+  populate:true,
   attributes: {
     username: {
       type: 'string',
