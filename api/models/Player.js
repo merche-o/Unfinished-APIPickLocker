@@ -26,7 +26,7 @@ module.exports = {
 	    required:true
 	},
 	try: {
-		type:'integer'
+		type:'integer',
 		defaultsTo:3
 	}
   }
