@@ -73,6 +73,7 @@ var SOCIAL_STRATEGY_CONFIG = {
 function _onLocalStrategyAuth(req, email, password, next) {
   User
     .findOne({email: email})
+      .populate('list_bonus')
     .then(function (user) {
       if (!user) return next(null, null, {
         code: 'E_USER_NOT_FOUND',
@@ -99,7 +100,7 @@ function _onLocalStrategyAuth(req, email, password, next) {
 function _onJwtStrategyAuth(req, payload, next) {
   User
     .findOne({id: payload.id})
-      .populate('list_bonus')
+     .populate('list_bonus')
     .then(function (user) {
       if (!user) return next(null, null, {
         code: 'E_USER_NOT_FOUND',
@@ -137,6 +138,7 @@ function _onSocialStrategyAuth(req, accessToken, refreshToken, profile, next) {
 
     User
       .findOrCreate(criteria, model)
+ .populate('list_bonus')
       .then(function (user) {
         if (!user) return next(null, null, {
           code: 'E_AUTH_FAILED',
