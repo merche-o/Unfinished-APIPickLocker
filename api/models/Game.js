@@ -12,12 +12,15 @@ module.exports = {
 	status_game:  {type:'string', required: true},
 	nb_turn:  {type:'integer', defaultsTo: 0},
 	  _player1 : {
-	    model:'User',
+	    model:'Player',
 
 	     },
 	  _player2 : {
-	      model:'User',
+	      model:'Player',
 	  },
-      }
+	history : {
+	    model:History
+	}
+  }
 };
 

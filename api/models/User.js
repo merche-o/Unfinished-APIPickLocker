@@ -5,7 +5,7 @@
 
 module.exports = {
   schema: true,
-  populate:true,
+
   attributes: {
     username: {
       type: 'string',
@@ -53,10 +53,6 @@ module.exports = {
     code : {
 	    model:'Code',
 	    via:'id_player'
-    },
-    try: {
-            type:'integer',
-            defaultsTo:0
     },
     life: {
 	type:'integer',
