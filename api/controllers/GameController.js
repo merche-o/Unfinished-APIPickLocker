@@ -10,7 +10,6 @@ module.exports = {
 	Game.find()
 	.where({_player1: {userid:req.id}})
 	.exec(function (err, response) {
-		res.view(response)
 		console.log(err)
 	    });
     
