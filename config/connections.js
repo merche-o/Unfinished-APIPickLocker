@@ -15,7 +15,7 @@ module.exports.connections = {
    * PostgreSQL configuration
    * @type {Object}
    */
-    postgresql: {
+    /*postgresql: {
         adapter: 'sails-postgresql',
         database: "dm6dfh3k1i39p",
         host: "ec2-54-197-241-239.compute-1.amazonaws.com",
@@ -24,10 +24,10 @@ module.exports.connections = {
         port: 5432,
         pool: false,
         ssl: true,
-    },
+	},*/
 
 
-    /*  postgresql: {
+      postgresql: {
     adapter: 'sails-postgresql',
     database: "PickLocker",
     host: "localhost",
@@ -36,7 +36,7 @@ module.exports.connections = {
     port: 5432,
     pool: false,
     ssl: false
-    },*/
+    },
 
   /**
    * MySQL configuration

@@ -13,21 +13,21 @@ module.exports = {
 	    type:'integer',
 	    required: true
 	},
-	playerid: {
-	    type:'integer',
-	    required: true
-	},
 	code: {
 	    type:'string',
 	    required:true
 	},
 	type: {
-	    type:'string',
-	    required:true
-	},
+	    type:'string'
+	    defaultTo:"number",
+      	},
 	try: {
 		type:'integer',
 		defaultsTo:3
+	},
+	gameId: {
+	    model:'Game'
+	    required:true
 	}
   }
 };

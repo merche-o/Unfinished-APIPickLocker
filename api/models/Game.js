@@ -8,8 +8,8 @@
 module.exports = {
 
   attributes: {
-	status_room : {type:'string', required: true},
-	status_game:  {type:'string', required: true},
+	status_room : {type:'string', defaultsTo:"waiting"},
+	status_game:  {type:'string', defaultsTo: "waiting"},
 	nb_turn:  {type:'integer', defaultsTo: 0},
 	  _player1 : {
 	    model:'Player',
