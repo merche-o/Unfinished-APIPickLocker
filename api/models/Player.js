@@ -18,15 +18,15 @@ module.exports = {
 	    required:true
 	},
 	type: {
-	    type:'string'
-	    defaultTo:"number",
+	    type:'string',
+	    defaultsTo:"number",
       	},
 	try: {
 		type:'integer',
 		defaultsTo:3
 	},
 	gameId: {
-	    model:'Game'
+	    model:'Game',
 	    required:true
 	}
   }
