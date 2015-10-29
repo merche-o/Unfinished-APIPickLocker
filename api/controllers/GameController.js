@@ -10,7 +10,7 @@ module.exports = {
 	Game.find()
 	.where({
 		or: [
-{ userid1: 1 },
+{ userid1: req.param('id') },
 { userid2: 2}
   ]
 	    })
