@@ -7,12 +7,12 @@
 
 module.exports = {
     MyGames: function(req, res) {
-	Game.find().where({
-		  or: [
+	Game.find({
+		  OR: [
 { userid1: req.param('id') },
 { userid2: req.param('id') }
 		       ]})
-	.populate('_player1')
+	    .populate('_player1','_player2')
   	.exec(function (err, response) {
 		console.log(response)
 		return res.ok(response)
