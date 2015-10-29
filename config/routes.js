@@ -9,4 +9,8 @@ module.exports.routes = {
 	controller: 'GameController',
 	action: 'myGames',
     },
+    'v1/gameswaiting/:id_user':{
+	controller: 'GameController',
+	action:'GamesAvailable', 
+    }
 };
