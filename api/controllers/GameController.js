@@ -11,7 +11,7 @@ module.exports = {
 	.populate('_player1')
   	.exec(function (err, response) {
 		console.log(response)
-		return res.ok({data : response})
+		return res.ok(response[0].toJSON())
 	    })
     }
 };
