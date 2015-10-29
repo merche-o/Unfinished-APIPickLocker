@@ -9,13 +9,13 @@ module.exports = {
     MyGames: function(req, res) {
 	Game.find({
 		or: [
-{ userid1: 1 },
-{ userid2: 2}
+{ userid1: parseInt(req.param('id')) },
+{ userid2: parseInt(req.param('id'))}
   ]
 	    })
 	    .populate('_player1','_player2')
   	.exec(function (err, response) {
-		console.log(response)
+		console.log(req.param('id'))
 		return res.ok(response)
 	    })
     }
