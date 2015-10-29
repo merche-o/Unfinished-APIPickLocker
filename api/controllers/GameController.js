@@ -19,13 +19,11 @@ module.exports = {
 		return res.ok(response)
 	    })
     },
+
 GamesAvailable: function(req, res) {
-	Game.find({
-		and: [
-		     { userid1: {not : req.param('id_user')} },
-{ userid2: -1}
-  ]
-	    })
+    Game.find({userid1: {not : req.param('id_user')}},
+	      {userid2: -1}
+	    )
 	    .populate('_player1','_player2')
   	.exec(function (err, response) {
 		console.log(req.param('id'))
