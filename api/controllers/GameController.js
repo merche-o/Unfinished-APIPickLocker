@@ -7,7 +7,7 @@
 
 module.exports = {
     MyGames: function(req, res) {
-	Game.find({userid1:req.param('id')})
+	Game.find()
 	.populate('_player1')
   	.exec(function (err, response) {
 		console.log(response)
