@@ -11,6 +11,9 @@ module.exports = {
 	status_room : {type:'string', defaultsTo:"waiting"},
 	status_game:  {type:'string', defaultsTo: "waiting"},
 	nb_turn:  {type:'integer', defaultsTo: 0},
+	userid1:{type:'integer',
+		 defaultsTo:-1},
+	userid2:{type:'integer', defaultsTo:-1},
 	  _player1 : {
 	    model:'Player',
 
