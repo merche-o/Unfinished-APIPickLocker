@@ -9,8 +9,8 @@ module.exports = {
     MyGames: function(req, res) {
 	Game.find({
 		or: [
-{ userid1: req.param('id') },
-{ userid2: req.param('id')}
+{ userid1: req.param('id_user') },
+{ userid2: req.param('id_user')}
   ]
 	    })
 	    .populate('_player1','_player2')
