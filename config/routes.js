@@ -5,7 +5,7 @@
  */
 
 module.exports.routes = {
-    '/mygames/:id_user': {
+    '/v1/mygames/:id_user': {
 	controller: 'GameController',
 	action: 'myGames',
     },
