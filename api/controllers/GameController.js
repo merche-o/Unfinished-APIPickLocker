@@ -7,8 +7,7 @@
 
 module.exports = {
     MyGames: function(req, res) {
-	Game.find()
-	.where({
+	Game.find({
 		or: [
 { userid1: req.param('id') },
 { userid2: 2}
