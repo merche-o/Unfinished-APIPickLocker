@@ -21,7 +21,7 @@ module.exports = {
     },
 GamesAvailable: function(req, res) {
 	Game.find({
-		or: [
+		and: [
 		     { userid1: {not : req.param('id_user')} },
 { userid2: -1}
   ]
