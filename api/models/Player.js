@@ -15,7 +15,6 @@ module.exports = {
 	},
 	code: {
 	    type:'string',
-	    required:true
 	},
 	type: {
 	    type:'string',
@@ -24,10 +23,6 @@ module.exports = {
 	try: {
 		type:'integer',
 		defaultsTo:3
-	},
-	gameId: {
-	    model:'Game',
-	    required:true
 	}
   }
 };
