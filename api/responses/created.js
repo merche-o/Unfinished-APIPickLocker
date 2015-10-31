@@ -9,9 +9,9 @@
 
 module.exports = function (data, code, message, root) {
   // TODO: make transform camelCase to snake_case
-  var response = _.assign({
+  var response = _.assign(
     data
-  }, root);
+  , root);
 
   this.res.status(201);
   this.res.jsonx(response);
