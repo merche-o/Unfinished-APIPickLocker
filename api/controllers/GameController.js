@@ -29,7 +29,7 @@ GamesAvailable: function(req, res) {
 		console.log(req.param('id'))
 		return res.ok(response)
 	    })
-    } 
+    }
 
 };
 

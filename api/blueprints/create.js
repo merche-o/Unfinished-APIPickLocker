@@ -8,7 +8,6 @@ var actionUtil = require('sails/lib/hooks/blueprints/actionUtil');
  */
 module.exports = function (req, res) {
   _.set(req.options, 'criteria.blacklist', ['populate']);
-  var Model = actionUtil.parseModel(req);
   var populate = req.param('populate') ? req.param('populate').replace(/ /g, '').split(',') : [];
   var values = actionUtil.parseValues(req);
 
