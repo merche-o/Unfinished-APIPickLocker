@@ -16,11 +16,11 @@ module.exports = {
 	userid2:{type:'integer', defaultsTo:-1},
 	  _player1 : {
 	    model:'Player',
-	defaultsTo:null
+	    defaultsTo:{}
 	     },
 	  _player2 : {
 	      model:'Player',
-	      defaultsTo:null
+	      defaultsTo:{}
 	  },
 	history : {
 	    model:'History'
