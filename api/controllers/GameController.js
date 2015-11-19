@@ -14,7 +14,8 @@ module.exports = {
   ]
 	    })
 	    .populate('_player1','_player2')
-  	.exec(function (err, response) {
+	    .populate('_player2')
+	    .exec(function (err, response) {
 		console.log(req.param('id'))
 		return res.ok(response)
 	    })
