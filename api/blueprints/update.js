@@ -14,6 +14,7 @@ module.exports = function (req, res) {
 
   Model
     .update(PK, _.omit(values, 'id'))
+    .populateAll()
     .then(function (records) {
       return records[0] ? res.ok(records[0]) : res.serverError();
     })
